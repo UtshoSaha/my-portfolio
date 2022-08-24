@@ -15,6 +15,7 @@ h3 {
 
 p {
     font-size: 25px;
+    text-align: justify;
 }
 
 span {
@@ -23,11 +24,17 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .width {
     width: 50%;
     padding-left: 8%;
+}
+
+.width-2nd {
+    width: 50%;
+    padding-right: 8%;
 }
 
 .width-moon {
@@ -40,6 +47,10 @@ section {
     width: 60%;
 }
 
+.kkk {
+    width: 90%;
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, gold);
@@ -49,7 +60,15 @@ section {
     border-radius: 7px;
 }
 
-.uks1 {
+.uks-1 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.uks-2 {
+    background-image: url(images/middle.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 25%;
+
 }
