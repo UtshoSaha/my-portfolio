@@ -32,6 +32,12 @@ section {
     padding-left: 8%;
 }
 
+.width-2nd {
+    width: 50%;
+    padding-right: 8%;
+}
+
+
 .width-moon {
     width: 50%;
     padding-left: 5%;
@@ -40,6 +46,10 @@ section {
 
 .width img {
     width: 60%;
+}
+
+.kkk {
+    width: 90%;
 }
 
 .link-button {
@@ -60,5 +70,6 @@ section {
     background-image: url(images/middle.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 25%;
 
 }
