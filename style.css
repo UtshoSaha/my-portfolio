@@ -9,8 +9,17 @@ h1 {
     font-size: 65px;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+
 h3 {
     font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
 }
 
 p {
@@ -22,7 +31,7 @@ span {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 200px;
 }
@@ -72,4 +81,9 @@ section {
     background-position: right;
     padding-bottom: 25%;
 
+}
+
+.uks-3 {
+    background-image: url(images/last.png);
+    background-repeat: no-repeat;
 }
