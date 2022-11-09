@@ -87,3 +87,25 @@ span {
     background-image: url(images/last.png);
     background-repeat: no-repeat;
 }
+
+.experiences_items {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+#baby_web {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#about_basic {
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, gold);
+    border-image-slice: 1;
+}
